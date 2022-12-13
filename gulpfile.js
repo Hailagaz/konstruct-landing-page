@@ -6,18 +6,18 @@ const sass = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
 
 function js() {
-	return src('js/*.js')
+	return src('src/js/*.js')
 		.pipe(babel())
 		.pipe(uglify())
 		.pipe(concat('index-min.js'))
-		.pipe(dest('output/'));
+		.pipe(dest('build/'));
 }
 
 function css() {
-	return src('scss/*.scss')
+	return src('src/scss/*.scss')
 		.pipe(sass())
 		.pipe(concat('index.css'))
-		.pipe(dest('output/'));
+		.pipe(dest('build/'));
 }
 
 exports.default = series(js, css);
