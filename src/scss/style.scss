@@ -1,0 +1,21 @@
+@import "tools/_nulling.scss";
+
+
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin: auto;
+	overflow-x: hidden;
+}
+body._lock {
+	overflow: hidden;
+}
+main {
+	margin: 0px auto 0px auto;
+}

@@ -16,7 +16,7 @@ function js() {
 function css() {
 	return src('src/scss/*.scss')
 		.pipe(sass())
-		.pipe(concat('index.css'))
+		.pipe(concat('style.css'))
 		.pipe(dest('build/'));
 }
 
