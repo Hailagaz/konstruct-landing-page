@@ -15,10 +15,10 @@ function js() {
 }
 
 function css() {
-	return src('src/scss/*.scss')
+	return src('src/styles/*.scss')
 		.pipe(sass())
-		.pipe(concat('style.css'))
 		.pipe(cleanCSS())
+		.pipe(concat('style-min.css'))
 		.pipe(dest('build/'));
 }
 
