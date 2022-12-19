@@ -4,6 +4,14 @@
 	&__logotype {}
 	&__logo {}
 	&__text {}
-	&__button {}
-	&__button-content {}
+	&__button {
+		border-width: 0;
+	}
+	&__button-content {
+		border-width: 0;
+	}
+}
+
+.btn {
+	--bs-btn-border-width: 0px;
 }
