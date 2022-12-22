@@ -1,0 +1,12 @@
+.footer {
+	&__content {
+		width: 100%;
+		max-width: $width_content - 2 * $padding_content;
+	}
+
+	&__news {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	&__content {}
+	&__rights {}
+}

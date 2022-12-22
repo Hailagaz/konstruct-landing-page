@@ -1,7 +1,10 @@
 @import "tools/_nulling.scss";
 @import "tools/_bootstrap.scss";
+@import "tools/_variables.scss";
 
 @import "sections/header.scss";
+@import "sections/navbar.scss";
+@import "sections/footer.scss";
 
 html,
 body {
