@@ -17,6 +17,7 @@
 a:focus,
 a:active {
 	outline: none;
+	text-decoration: none;
 }
 nav,
 footer,
@@ -51,7 +52,7 @@ button::-moz-focus-inner {
 	padding: 0;
 	border: 0;
 }
-a,
+a, a:link, 
 a:visited {
 	text-decoration: none;
 }
