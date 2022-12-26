@@ -1,4 +1,10 @@
 .navbar {
 	width: 100%;
 	max-width: $width_content - 2 * $padding_content;
+	a {
+		color: #48555B !important;
+	}
+	a:hover {
+		color: #00A4E5 !important;
+	}
 }
