@@ -1,9 +1,22 @@
 .about {
-	width: 100% !important;
-	max-width: 900px !important;
+	width: 100%;
+	max-width: $width_content - 2 * $padding_content;
 
-	&__card {
-		width: 100% !important;
-		max-width: 180px !important;
+	&__head {
+		hr {
+			width: 50px;
+			border-top: solid #00A4E5;
+			margin: 0 auto 50px;
+		}
 	}
+	&__content {}
+	&__text {
+		
+	}
+	&__cards {}
+	&__card {
+		width: 100%;
+		max-width: 180px;
+	}
+	&__card-content {}
 }

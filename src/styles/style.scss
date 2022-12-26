@@ -5,12 +5,14 @@
 
 @import "sections/header.scss";
 @import "sections/navbar.scss";
+@import "sections/about.scss";
 @import "sections/footer.scss";
 
 html,
 body {
 	scroll-behavior: smooth;
 }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
@@ -18,9 +20,7 @@ body {
 	margin: auto;
 	overflow-x: hidden;
 }
-body._lock {
-	overflow: hidden;
-}
+
 main {
 	margin: 0px auto 0px auto;
 }
