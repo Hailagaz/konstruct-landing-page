@@ -29,6 +29,12 @@
 		&__cards {
 			flex-wrap: wrap;
 			justify-content: center;
+			align-items: center;
+		}
+	}
+	@media screen and (max-width: 611px) {
+		&__cards {
+			flex-direction: column;
 		}
 	}
 }
