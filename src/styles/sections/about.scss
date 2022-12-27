@@ -17,4 +17,18 @@
 		max-width: 180px;
 	}
 	&__card-content {}
+	@media screen and (max-width: 899px) {
+		&__content {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		&__text {
+			text-align: center;
+		}
+		&__cards {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
 }
