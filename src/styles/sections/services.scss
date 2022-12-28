@@ -1,4 +1,14 @@
 .services {
 	width: 100%;
 	max-width: $width_content - 2 * $padding_content;
+
+	&__row1 {}
+	&__row2 {}
+	@media screen and (max-width: 767px) {
+		&__row1 {
+			//justify-content: center !important;
+			//align-items: center !important;
+		}
+	}
+
 }
