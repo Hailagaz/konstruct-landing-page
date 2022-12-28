@@ -1,2 +1,0 @@
-
-document.addEventListener("DOMContentLoaded",()=>{const o=document.querySelector(".showbutton");window.addEventListener("scroll",function(n){700<window.scrollY?o.classList.remove("showbutton__hidden"):window.scrollY<700&&o.classList.add("showbutton__hidden")}),o.addEventListener("click",function(n){window.scrollTo(0,0)})});
