@@ -1,1 +1,4 @@
-.services {}
+.services {
+	width: 100%;
+	max-width: $width_content - 2 * $padding_content;
+}
