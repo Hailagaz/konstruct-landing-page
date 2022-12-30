@@ -6,6 +6,38 @@
 
 	&__news {
 		background-color: rgba(0, 0, 0, 0.2);
+
+		p {
+			height: 40px;
+			font-size: 22px;
+			line-height: 26px;
+			letter-spacing: 0.846154px;
+		}
+
+		input {
+			width: 100%;
+			max-width: 250px;
+			height: 40px;
+		}
+
+		button {
+			width: 150px;
+			height: 40px;
+			box-sizing: border-box;
+			color: #ffffff;
+			font-size: 13px;
+			letter-spacing: 0.5px;
+			background-color: #00A4E5;
+		}
+
+		button:hover {
+			background-color: #08729c;
+		}
+
+		input,
+		button {
+			border-radius: 0 !important;
+		}
 	}
 
 	&__content {}
