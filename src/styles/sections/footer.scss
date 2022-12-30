@@ -7,17 +7,27 @@
 	&__news {
 		background-color: rgba(0, 0, 0, 0.2);
 	}
+
 	&__content {}
+
 	&__rights {}
+
 	&__links {
 		p {
 			width: 90px;
 		}
 	}
+
 	&__socials {}
+
 	&__contact {}
+
 	@media screen and (max-width: 767px) {
 		&__links {
+			justify-content: center;
+		}
+
+		&__socials-content {
 			justify-content: center;
 		}
 	}

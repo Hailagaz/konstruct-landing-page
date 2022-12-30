@@ -9,29 +9,55 @@
 			margin: 0 auto;
 		}
 	}
+
 	&__content {}
-	&__text {}
+
+	&__text {
+		p:nth-child(2n+1) {
+			font-size: 20px;
+			line-height: 23px;
+			letter-spacing: 0.1875px;
+			color: #48555B;
+			a {
+				color: #16ACE8 !important;
+			}
+		}
+
+		p:nth-child(2n) {
+			font-size: 13px;
+			line-height: 23px;
+			letter-spacing: 0.1875px;
+			color: #48555B;
+		}
+	}
+
 	&__cards {}
+
 	&__card {
 		width: 100%;
 		max-width: 180px;
 	}
+
 	&__card-content {}
+
 	@media screen and (max-width: 899px) {
 		&__content {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 		}
+
 		&__text {
 			text-align: center;
 		}
+
 		&__cards {
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
 		}
 	}
+
 	@media screen and (max-width: 611px) {
 		&__cards {
 			flex-direction: column;
