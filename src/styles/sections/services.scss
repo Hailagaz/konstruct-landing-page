@@ -1,7 +1,51 @@
 .services {
 	width: 100%;
 	max-width: $width_content - 2 * $padding_content;
+	color: #48555B;
 
-	&__row1 {}
-	&__row2 {}
+	&__row1 {
+		h2 {
+			font-size: 18px;
+			line-height: 21px;
+			letter-spacing: 2.30625px;
+		}
+
+		p {
+			font-size: 11px;
+			line-height: 19px;
+			letter-spacing: 0.2px;
+		}
+
+		a {
+			width: 150px;
+			height: 40px;
+			font-size: 13px;
+			letter-spacing: 0.5px;
+			background-color: #00A4E5;
+		}
+
+		a:hover {
+			background-color: #08729c;
+		}
+	}
+
+	&__row2 {
+		img {}
+
+		h5 {
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.426667px;
+		}
+
+		p {
+			font-size: 13px;
+			line-height: 23px;
+			letter-spacing: 0.1875px;
+		}
+	}
+
+	&__card:hover {
+		background-color: #a5e1f7;
+	}
 }
