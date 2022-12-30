@@ -18,6 +18,7 @@
 			line-height: 23px;
 			letter-spacing: 0.1875px;
 			color: #48555B;
+
 			a {
 				color: #16ACE8 !important;
 			}
@@ -36,6 +37,12 @@
 	&__card {
 		width: 100%;
 		max-width: 180px;
+
+		h5 {
+			font-size: 24px;
+			line-height: 29px;
+			letter-spacing: 0.1875px;
+		}
 	}
 
 	&__card-content {}
