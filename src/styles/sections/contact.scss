@@ -4,4 +4,29 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+
+	h2 {
+		font-size: 30px;
+		line-height: 36px;
+		letter-spacing: 0.15px;
+	}
+
+	a {
+		width: 150px;
+		height: 40px;
+		font-size: 13px;
+		letter-spacing: 0.5px;
+		background-color: #00A4E5;
+	}
+
+	a:hover {
+		background-color: #08729c;
+	}
+
+	&__text {
+		width: 100%;
+		max-width: 340px;
+	}
+
+	&__link {}
 }
