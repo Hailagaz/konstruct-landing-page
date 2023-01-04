@@ -126,7 +126,9 @@
 	&__card {
 		width: 100%;
 		max-width: 180px;
-
+		img {
+			height: 100%;
+		}
 		h5 {
 			font-size: 24px;
 			line-height: 29px;
@@ -134,11 +136,11 @@
 		}
 	}
 
-	// &__card:hover {
-	// 	transform: scale(1.2);
-	// 	transition: transform 0.25s;
-	// 	opacity: 2;
-	// }
+	&__card:hover {
+		h5 {
+			display: none;
+		}
+	}
 
 	&__card-content {}
 
